@@ -1,0 +1,61 @@
+// Button
+.btn {
+  background: $pink-light;
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 11px 60px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  border: 2px solid $pink-light;
+
+  &:active,
+  &:hover {
+    background: #CBCBCB;
+    border-bottom-right-radius: 20px;
+    color: black;
+    border-color: #CBCBCB;
+  }
+
+  &:visited,
+  &:focus {
+    color: #fff;
+
+    &:active,
+    &:hover {
+      color: #000;
+    }
+  }
+
+  &--primary {
+    font-size: 10px;
+    letter-spacing: 0;
+    padding: 13px 20px;
+    text-transform: capitalize;
+    background: $primary-color;
+
+    &:active,
+    &:hover {
+      background: $secondary-color;
+      color: $white;
+      border-bottom-right-radius: 0;
+    }
+  }
+
+  &--out-line {
+    border: 2px solid $white;
+    color: $white;
+    background: none;
+    padding: 15px;
+
+    &:hover {
+      border-color: $secondary-color;
+      color: $secondary-color;
+      border-radius: 0;
+      background: none;
+    }
+  }
+}

@@ -1,0 +1,83 @@
+// STYLES-MAIN.SCSS
+
+// Please centralize all includes here.
+
+// WARNING: DO NOT EDIT /assets/css/styles.css file manually, this should be generated only by compiler based on this file.
+
+
+//Required imports
+@import '../node_modules/susy/sass/susy';
+
+// Variables
+@import 'base/variables';
+@import 'base/colors';
+
+//Helpers functions
+@import 'helpers/functions';
+@import 'helpers/mixins';
+@import 'helpers/animation';
+
+// Reset
+@import 'base/reset';
+
+//Base
+@import 'base/fonts';
+@import 'base/icons';
+@import 'base/grid';
+@import 'base/extends';
+@import 'base/typography';
+@import 'base/btn';
+@import 'base/form';
+@import 'base/table';
+@import 'base/sprites';
+
+//Helpers classes
+@import 'base/helpers';
+
+// Vendors
+//@import 'vendors/chosen';
+
+// Components
+@import 'components/_intro-text';
+@import 'components/index-links';
+@import 'components/block-cta';
+@import 'components/featured-resources';
+@import 'components/hero-banner';
+@import 'components/grid-client';
+@import 'components/related-grid';
+@import 'components/resources-view';
+@import 'components/icon-heading';
+@import 'components/page-heading';
+@import 'components/grid-feed';
+@import 'components/location-grid';
+@import 'components/icon-grid';
+@import 'components/block-card';
+@import 'components/grid-content';
+@import 'components/social-share';
+@import 'components/block-contact';
+@import 'components/grid-pattern';
+@import 'components/block-media';
+@import 'components/job-list';
+@import 'components/block-quote';
+@import 'components/block-newsletter';
+@import 'components/block-locale';
+@import 'components/list-item';
+@import 'components/registration-form';
+@import 'components/article-title';
+@import 'components/contact-form';
+@import 'components/bio-grid';
+@import 'components/block-filter';
+@import 'components/text-cta';
+@import 'components/pager';
+@import 'components/block-text';
+@import 'components/media-feature';
+@import 'components/box-feature';
+
+// Layouts
+@import 'layouts/layout';
+@import 'layouts/navigation';
+@import 'layouts/header';
+@import 'layouts/footer';
+
+// Pages
+// @import 'pages/index';
